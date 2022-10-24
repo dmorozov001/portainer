@@ -11,7 +11,7 @@ import {
 } from '@/react/portainer/environments/types';
 import { getPlatformType } from '@/react/portainer/environments/utils';
 import { useEnvironment } from '@/react/portainer/environments/queries/useEnvironment';
-import { useLocalStorage } from '@/portainer/hooks/useLocalStorage';
+import { useLocalStorage } from '@/react/hooks/useLocalStorage';
 import { EndpointProvider } from '@/portainer/services/types';
 
 import { getPlatformIcon } from '../portainer/environments/utils/get-platform-icon';
