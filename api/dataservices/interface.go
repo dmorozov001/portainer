@@ -307,8 +307,6 @@ type (
 		UpdateInstanceID(ID string) error
 		Version() (*models.Version, error)
 		UpdateVersion(*models.Version) error
-		Migrate() error
-		BucketName() string
 	}
 
 	// WebhookService represents a service for managing webhook data.
